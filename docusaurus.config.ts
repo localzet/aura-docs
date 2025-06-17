@@ -10,13 +10,13 @@ const config: Config = {
     favicon: 'img/favicon.ico',
     url: 'https://aura.zorin.space',
     baseUrl: '/',
-    organizationName: 'Zorin Projects',
-    projectName: 'panel',
+    organizationName: 'localzet',
+    projectName: 'aura-docs',
     onBrokenLinks: 'throw',
     onBrokenMarkdownLinks: 'warn',
     i18n: {
         defaultLocale: 'ru',
-        locales: ['en']
+        locales: ['ru']
     },
 
     presets: [
