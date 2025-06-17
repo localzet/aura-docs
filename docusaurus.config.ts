@@ -33,26 +33,26 @@ const config: Config = {
                 //     showReadingTime: true,
                 //     editUrl: 'https://github.com/localzet/aura-docs/tree/main'
                 // },
-                blog: {
-                    routeBasePath: '/blog',
-                    path: 'blog',
-                    showReadingTime: true,
-                    // showLastUpdateAuthor: true,
-                    // showLastUpdateTime: true,
-                    // authorsMapPath: './blog/authors.yaml',
-                    postsPerPage: 5,
-                    feedOptions: {
-                        type: 'all',
-                        description:
-                            'Keep up to date with upcoming Aura releases and articles by following our feed!',
-                        copyright: `Copyright © ${new Date().getFullYear()} Zorin Projects S.P.`,
-                        xslt: true
-                    },
-                    blogTitle: 'Aura blog',
-                    blogDescription: 'Read blog posts about Aura from the team',
-                    blogSidebarCount: 'ALL',
-                    blogSidebarTitle: 'All our posts'
-                },
+                // blog: {
+                //     routeBasePath: '/blog',
+                //     path: 'blog',
+                //     showReadingTime: true,
+                //     // showLastUpdateAuthor: true,
+                //     // showLastUpdateTime: true,
+                //     // authorsMapPath: './blog/authors.yaml',
+                //     postsPerPage: 5,
+                //     feedOptions: {
+                //         type: 'all',
+                //         description:
+                //             'Keep up to date with upcoming Aura releases and articles by following our feed!',
+                //         copyright: `Copyright © ${new Date().getFullYear()} Zorin Projects S.P.`,
+                //         xslt: true
+                //     },
+                //     blogTitle: 'Aura blog',
+                //     blogDescription: 'Read blog posts about Aura from the team',
+                //     blogSidebarCount: 'ALL',
+                //     blogSidebarTitle: 'All our posts'
+                // },
                 theme: {
                     customCss: './src/css/custom.css'
                 }
@@ -172,39 +172,39 @@ const config: Config = {
                 // }
             ]
         },
-        footer: {
-            style: 'light',
-            links: [
-                // {
-                //     title: 'Docs',
-                //     items: [
-                //         {
-                //             label: 'Introduction',
-                //             to: '/docs/overview/introduction'
-                //         }
-                //     ]
-                // },
-                // {
-                //     title: 'Community',
-                //     items: [
-                //         {
-                //             label: 'Telegram',
-                //             href: 'https://t.me/localzet'
-                //         }
-                //     ]
-                // },
-                // {
-                //     title: 'More',
-                //     items: [
-                //         {
-                //             label: 'GitHub',
-                //             href: 'https://github.com/localzet'
-                //         }
-                //     ]
-                // }
-            ],
-            copyright: `Copyright © ${new Date().getFullYear()} Zorin Projects S.P.`
-        },
+        // footer: {
+        //     style: 'light',
+        //     links: [
+        //         // {
+        //         //     title: 'Docs',
+        //         //     items: [
+        //         //         {
+        //         //             label: 'Introduction',
+        //         //             to: '/docs/overview/introduction'
+        //         //         }
+        //         //     ]
+        //         // },
+        //         // {
+        //         //     title: 'Community',
+        //         //     items: [
+        //         //         {
+        //         //             label: 'Telegram',
+        //         //             href: 'https://t.me/localzet'
+        //         //         }
+        //         //     ]
+        //         // },
+        //         // {
+        //         //     title: 'More',
+        //         //     items: [
+        //         //         {
+        //         //             label: 'GitHub',
+        //         //             href: 'https://github.com/localzet'
+        //         //         }
+        //         //     ]
+        //         // }
+        //     ],
+        //     copyright: `Copyright © ${new Date().getFullYear()} Zorin Projects S.P.`
+        // },
         colorMode: {
             defaultMode: 'dark',
             disableSwitch: true,
