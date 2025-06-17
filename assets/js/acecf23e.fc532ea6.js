@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_localzet_aura_docs=self.webpackChunk_localzet_aura_docs||[]).push([[1903],{1912:a=>{a.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Aura blog","authorsListPath":"/blog/authors"}')}}]);

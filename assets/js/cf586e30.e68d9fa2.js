@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_localzet_aura_docs=self.webpackChunk_localzet_aura_docs||[]).push([[2009],{1942:a=>{a.exports=JSON.parse('{"name":"@scalar/docusaurus","id":"default"}')}}]);
