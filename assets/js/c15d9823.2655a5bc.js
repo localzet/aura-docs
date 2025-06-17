@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_localzet_aura_docs=self.webpackChunk_localzet_aura_docs||[]).push([[8146],{9328:a=>{a.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":5,"totalPages":1,"totalCount":1,"blogDescription":"Read blog posts about Aura from the team","blogTitle":"Aura blog"}}')}}]);

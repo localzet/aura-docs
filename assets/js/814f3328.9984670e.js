@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_localzet_aura_docs=self.webpackChunk_localzet_aura_docs||[]).push([[7472],{5513:e=>{e.exports=JSON.parse('{"title":"All our posts","items":[{"title":"Release v1.3.1","permalink":"/blog/releases/1.3.1","unlisted":false,"date":"2025-02-24T00:00:00.000Z"}]}')}}]);
