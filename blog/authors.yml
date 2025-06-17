@@ -1,0 +1,19 @@
+localzet:
+    name: Ivan Zorin
+    title: Developer
+    url: https://t.me/localzet
+    image_url: https://aura.zorin.space/img/logo.svg
+    page: false
+    socials:
+        telegram: https://t.me/localzet
+        github: localzet
+
+localzet-dev:
+    name: Localzet Group
+    title: Maintainer
+    url: https://t.me/localzet-dev
+    image_url: https://aura.zorin.space/img/logo.svg
+    page: false
+    socials:
+        telegram: https://t.me/localzet-dev
+        github: localzet-dev
