@@ -23,10 +23,10 @@ cd /opt/aura && nano .env
 
 ## Ports
 
-| Variable       | Description                            | Default |
-| -------------- | -------------------------------------- | ------- |
+| Variable       | Description                       | Default |
+| -------------- | --------------------------------- | ------- |
 | `APP_PORT`     | The port to run the Aura Panel on | `3000`  |
-| `METRICS_PORT` | The port to run Metrics endpoints      | `3001`  |
+| `METRICS_PORT` | The port to run Metrics endpoints | `3001`  |
 
 <details>
 <summary>Example</summary>
@@ -71,12 +71,12 @@ API_INSTANCES=1
 
 ## Redis
 
-| Variable         | Description                      | Default           | Required |
-| ---------------- | -------------------------------- | ----------------- | -------- |
+| Variable         | Description                      | Default      | Required |
+| ---------------- | -------------------------------- | ------------ | -------- |
 | `REDIS_HOST`     | The host of the Redis server     | `aura-redis` | Yes      |
-| `REDIS_PORT`     | The port of the Redis server     | `6379`            | Yes      |
-| `REDIS_DB`       | The database of the Redis server | `0`               | No       |
-| `REDIS_PASSWORD` | The password of the Redis server |                   | No       |
+| `REDIS_PORT`     | The port of the Redis server     | `6379`       | Yes      |
+| `REDIS_DB`       | The database of the Redis server | `0`          | No       |
+| `REDIS_PASSWORD` | The password of the Redis server |              | No       |
 
 <details>
 <summary>Example</summary>
@@ -219,8 +219,8 @@ TELEGRAM_OAUTH_ADMIN_IDS=[123, 321]
 
 ## Domains
 
-| Variable           | Description                                                  | Default | Required |
-| ------------------ | ------------------------------------------------------------ | ------- | -------- |
+| Variable           | Description                                             | Default | Required |
+| ------------------ | ------------------------------------------------------- | ------- | -------- |
 | `FRONT_END_DOMAIN` | The domain of the Aura Panel. Used to set CORS headers. | `*`     | Yes      |
 
 | Variable            | Description                                    | Default               | Required |

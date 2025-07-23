@@ -86,7 +86,7 @@ const config: Config = {
                     {
                         from: '/docs/',
                         to: '/docs/overview/introduction'
-                    },
+                    }
                 ]
             }
         ],
@@ -159,7 +159,7 @@ const config: Config = {
                     sidebarId: 'tutorialSidebar',
                     position: 'left',
                     label: '📓 Docs'
-                },
+                }
                 // {
                 //     href: 'https://aura.zorin.space/changelog',
                 //     label: '🚀 Releases',

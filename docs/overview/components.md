@@ -50,4 +50,3 @@ A simple wrapper for NestJS.
 ### Internal usage contracts
 
 [![NPM](https://img.shields.io/npm/v/@localzet/aura-contract?sort=semver&style=for-the-badge&logo=npm&label=NPM)](https://www.npmjs.com/package/@localzet/aura-contract)
-

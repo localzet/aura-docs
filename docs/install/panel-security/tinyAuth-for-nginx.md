@@ -17,17 +17,16 @@ tinyauth:
     image: ghcr.io/maposia/remnawave-tinyauth:latest
     restart: always
     ports:
-      - '127.0.0.1:3002:3002'
+        - '127.0.0.1:3002:3002'
     networks:
-      - aura-network
+        - aura-network
     environment:
-      - PORT=3002
-      - APP_URL=https://tinyauth.example.com
-      - USERS=your-username-password-hash
-      - SECRET=some-random-32-chars-string
+        - PORT=3002
+        - APP_URL=https://tinyauth.example.com
+        - USERS=your-username-password-hash
+        - SECRET=some-random-32-chars-string
 
-  # To get USERS and SECRET read below
-
+    # To get USERS and SECRET read below
 ```
 
 ## Configuring variables
@@ -57,7 +56,7 @@ docker exec -it tinyauth ./tinyauth user create --interactive
 
 Every configuration option that has a `FILE` equivalent (e.g. `USERS` and `USERS_FILE`), then the file can be used instead of the environment variable.
 
-`USERS=` comma separated list of tinyauth users.*(required)*
+`USERS=` comma separated list of tinyauth users._(required)_
 
 `USERS_FILE=` A file containing a list of tinyauth users.
 
@@ -67,7 +66,7 @@ All environment variables you can see on official documentation https://tinyauth
 
 To generate the <code>SECRET</code> environment variable using <code>openssl rand -base64 32 | tr -dc 'a-zA-Z0-9' | head -c 32</code>.
 
-## Configure 
+## Configure
 
 Next, you need to configure nginx.conf to protect the required path.
 
@@ -111,7 +110,7 @@ server {
     ssl_trusted_certificate "/etc/nginx/ssl/panel.remnawave.com/fullchain.pem";
 
     location / {
-        auth_request /tinyauth;                         
+        auth_request /tinyauth;
         error_page 401 = @tinyauth_login;
 
         proxy_http_version 1.1;
@@ -137,7 +136,7 @@ location /tinyauth {
 }
 
     location @tinyauth_login {
-    return 302 https://tinyauth.example.com/login?redirect_uri=$scheme://$http_host$request_uri; 
+    return 302 https://tinyauth.example.com/login?redirect_uri=$scheme://$http_host$request_uri;
 }
 
 #Make sure to replace the http://tinyauth.example.com with your own app URL
@@ -154,7 +153,7 @@ docker compose down && docker compose up -d && docker compose logs -f
 ## Issuing API-keys
 
 :::info
- 
+
 You can use <code>Basic base64(username:password)</code> in the `X-Api-Key` header of your requests to the API.
 
 Example: `X-Api-Key: Basic dXNlcm5hbWU6cGFzc3dvcmQ=`
