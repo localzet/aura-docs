@@ -235,7 +235,7 @@ export default function Home(): JSX.Element {
         <MantineProvider defaultColorScheme="dark" theme={theme}>
             <Layout
                 description="Aura – user and proxy management solution"
-                noFooter={true}
+                noFooter
                 title="Home"
             >
                 <HomePage />
